@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cal-bod{
+    height: 80%;
+    width: 35%;
+    background-color: rgb(207, 200, 197);
+    border: 3px solid black;
+    margin-top: 10px;
+   
+}
+
+#screen1{
+    height: 100px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: whitesmoke;
+    font-size: 30px;
+    color: black;
+}
+
+.box{
+    height: 13vh;
+    width: 8.6vw;
+    font-size: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.box1{
+    font-size: 30px;
+    cursor: pointer;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.box:hover{
+    background-color: rgba(190, 218, 245, 0.774);
+}
+
+.box1:hover{
+    background-color: rgb(196, 241, 151);
+}

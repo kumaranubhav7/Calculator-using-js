@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+
+<body>
+    <div class="container">
+        <b style="padding-left: 8%; font-size: 40px;">CALCULATOR</b>
+        <div id="cal-bod">
+            <div>
+                <input type="text" id="screen1" disabled>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+                <input type="submit" class="box" value="C" onclick="clr()">
+                <input type="submit" class="box" value="BACK" onclick="clearLast()">
+                <input type="submit" class="box" value="*" onclick="display('*')">
+                <input type="submit" class="box" value="/" onclick="display('/')">
+                <input type="submit" class="box" value="7" onclick="display('7')">
+                <input type="submit" class="box" value="8" onclick="display('8')">
+                <input type="submit" class="box" value="9" onclick="display('9')">
+                <input type="submit" class="box" value="-" onclick="display('-')">
+                <input type="submit" class="box" value="4" onclick="display('4')">
+                <input type="submit" class="box" value="5" onclick="display('5')">
+                <input type="submit" class="box" value="6" onclick="display('6')">
+                <input type="submit" class="box" value="+" onclick="display('+')">
+                <input type="submit" class="box" value="1" onclick="display('1')">
+                <input type="submit" class="box" value="2" onclick="display('2')">
+                <input type="submit" class="box" value="3" onclick="display('3')">
+                <input type="submit" class="box1" value="=" onclick="evaluateScreen()">
+                <input type="submit" class="box" value="." onclick="display('.')">
+                <input type="submit" class="box" value="0" onclick="display('0')">
+                <input type="submit" class="box" value="00" onclick="display('00')">
+         <!--   <button class="box" type="submit" >C</button>
+                <button class="box" type="submit" >BACK</button>
+                <button class="box" type="submit" >*</button>
+                <button class="box" type="submit" >/</button>
+                <button class="box" type="submit" >7</button>
+                <button class="box" type="submit" >8</button>
+                <button class="box" type="submit" >9</button>
+                <button class="box" type="submit" >-</button>
+                <button class="box" type="submit" >4</button>
+                <button class="box" type="submit" >5</button>
+                <button class="box" type="submit" >6</button>
+                <button class="box" type="submit" >+</button>
+                <button class="box" type="submit" >1</button>
+                <button class="box" type="submit" >2</button>
+                <button class="box" type="submit" >3</button>
+                <button class="box1" type="submit" >=</button>
+                <button class="box" type="submit" >.</button>
+                <button class="box" type="submit" >0</button>
+                <button class="box" type="submit" >00</button> -->   
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="assign.js"></script>
+
+</html>
